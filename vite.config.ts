@@ -9,5 +9,5 @@ export default defineConfig({
       external: ['/recharts'],
     },
   },
-  publicDir: 'public',
+  publicDir: 'src/public',
 });

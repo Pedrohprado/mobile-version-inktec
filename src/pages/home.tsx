@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main className=' h-screen p-5 flex flex-col'>
       <section className=' flex items-center gap-2'>
-        <img src='src/public/logo.png' alt='' />
+        <img src='/logo.png' alt='' />
         <h1 className=' text-slate-700 font-bold'>INK Tec</h1>
       </section>
       <h3 className=' text-slate-700 font-normal mb-5'>Bem vindo!</h3>

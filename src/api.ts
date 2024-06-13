@@ -45,6 +45,6 @@ export const calculatePlace = (
     112
   ).toFixed(2);
 
-  const tempInk = +Tpo + 3;
+  const tempInk = Math.floor(+Tpo + 3);
   return { Tpo, tempInk };
 };
